@@ -6,3 +6,7 @@ li {
     list-style-type: none;
     display: inline;
 }
+
+a {
+    border: darkturquoise 2px solid;
+}
