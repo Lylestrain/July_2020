@@ -1,15 +1,30 @@
 body {
     background-color: darkslategrey;
+    margin: 0px;
+}
+
+#logo {
+    border: 2px solid goldenrod;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
 }
 
 li {
-    list-style-type: none;
-    display: inline;
+    float: left;
+    width: 25%;
 }
 
 a {
-    border: rgb(20, 66, 66) 2px solid;
+    border: rgb(7, 49, 49) 2px solid;
     color: rgb(252, 248, 250);
+    text-decoration: none;
 }
 
 #logo {
