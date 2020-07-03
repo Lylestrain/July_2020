@@ -8,9 +8,10 @@ li {
 }
 
 a {
-    border: darkturquoise 2px solid;
+    border: rgb(20, 66, 66) 2px solid;
+    color: rgb(252, 248, 250);
 }
 
-.logo {
-    background-color: deeppink;
+#logo {
+    color: rgb(252, 248, 250);
 }
