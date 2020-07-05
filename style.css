@@ -1,16 +1,16 @@
-/* If the screen size is 600px wide or less,  the background color will be lightblue: */
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: rgb(194, 230, 173);
-    }
-  }
+
 
 
 body {
     background-color: rgb(46, 68, 114);
     margin: 0px;
 }
-
+/* If the screen size is 600px wide or less,  the background color will be lightblue: */
+@media only screen and (max-width: 720px) {
+    body {
+      background-color: rgb(194, 230, 173);
+    }
+  }
 nav {
 }
 
