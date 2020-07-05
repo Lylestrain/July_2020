@@ -1,11 +1,9 @@
 body {
-    background-color: darkslategrey;
+    background-color: rgb(46, 68, 114);
     margin: 0px;
 }
 
-#logo {
-    border: 2px solid goldenrod;
-    text-align: center;
+nav {
 }
 
 ul {
@@ -14,6 +12,11 @@ ul {
     text-align: center;
     overflow: hidden;
     width: 100% ;
+    top: 0px;
+    position: fixed;
+    background-color: rgba(46, 68, 114, 0.5);
+    line-height: 32px;
+    margin: 0;
 }
 
 li {
@@ -22,11 +25,27 @@ li {
 }
 
 a {
-    border: rgb(7, 49, 49) 2px solid;
     color: rgb(252, 248, 250);
     text-decoration: none;
 }
 
+header {
+    background-image: url('tel-services-general-slide.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    margin: 0px;
+}
+
 #logo {
+    text-align: center;
     color: rgb(252, 248, 250);
+    line-height: 300px;
+    font-size: 100px;
+    background-color: rgba(46, 68, 114, 0.6);
+}
+
+.area {
+    height: 250px;
 }
