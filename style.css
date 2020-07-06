@@ -3,13 +3,50 @@
 
 body {
     background-color: rgb(46, 68, 114);
+    color: thistle;
     margin: 0px;
 }
+
+ul {
+    padding-inline-start: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: thistle;
+    text-decoration: none;
+}
+
+#logo_pic {
+    background-image: url('small.png');
+    /* Set a specific height */
+    height: 150px;
+  
+    outline: 2px solid gold;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+#logo_text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
 /* If the screen size is 600px wide or less,  the background color will be lightblue: */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 315px) {
     body {
       background-color: rgb(194, 230, 173);
-      color: white;
     }
   }
 
