@@ -6,12 +6,13 @@ body {
     margin: 0px;
 }
 /* If the screen size is 600px wide or less,  the background color will be lightblue: */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 329px) {
     body {
       background-color: rgb(194, 230, 173);
       color: white;
     }
   }
+
 .area {
     height: 250px;
     background-color: tomato;
