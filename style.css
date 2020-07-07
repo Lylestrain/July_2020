@@ -10,8 +10,7 @@ a { text-decoration: none; color: #00A5CC; }
 li { list-style-type: none; }
 
 header { 
-	width: 100%; 
-	height: 50px; 
+	width: 100%;  
 	margin: auto;
 	border-bottom: 1px solid #EEE;
 }
@@ -48,12 +47,13 @@ nav li:last-child a { border-bottom: none; }
 	
 }
 .menu-icon {
-	padding: 10px 20px;
+	padding: 10px 15px;
 	background: #c0cae5;
 	color: #987D3E;
 	cursor: pointer;
 	float: right;
-	margin-top: 4px;
+  margin-top: 4px;
+  margin-right: 14px;
 	border-radius: 5px;
 }
 #menuToggle { display: none; }
