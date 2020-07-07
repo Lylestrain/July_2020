@@ -16,7 +16,7 @@ li {
 }
 
 a {
-    color: thistle;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -43,6 +43,19 @@ a {
     color: white;
 }
 
+#logo_top {
+    font-size: 2rem;
+}
+
+#logo_btm {
+    font-size: large;
+}
+
+.area {
+    height: 250px;
+    background-color: tomato;
+}
+
 /* If the screen size is 600px wide or less,  the background color will be lightblue: */
 @media only screen and (max-width: 315px) {
     body {
@@ -50,7 +63,3 @@ a {
     }
   }
 
-.area {
-    height: 250px;
-    background-color: tomato;
-}
