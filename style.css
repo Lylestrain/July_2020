@@ -6,18 +6,19 @@ body {
     overflow: hidden;
     background-color: lightslategrey;
    }
-a { text-decoration: none; color: #00A5CC; }
+a { text-decoration: none; color: #c0cae5; }
 li { list-style-type: none; }
 
 header { 
-	width: 100%;  
+	width: 100%; 
+	height: 50px; 
 	margin: auto;
-	border-bottom: 1px solid #EEE;
+	border-bottom: 1px solid #c0cae5;
 }
 #brand {
 	float: left;
 	line-height: 50px;
-	color: #E5DAC0;
+	color: #c0cae5;
 	font-size: 25px;
 	font-weight: bolder;
 }
@@ -25,8 +26,8 @@ nav { width: 100%; text-align: center; }
 nav a { 
 	display: block; 
 	padding: 15px 0;
-	border-bottom: 1px solid #C3AA6E;
-	color: #F0EADC;
+	border-bottom: 1px solid #c0cae5;
+	color: #c0cae5;
 }
 nav a:hover { background: #E5DAC0; color: #FFF; }
 nav li:last-child a { border-bottom: none; }
@@ -48,8 +49,8 @@ nav li:last-child a { border-bottom: none; }
 }
 .menu-icon {
 	padding: 10px 15px;
-	background: #c0cae5;
-	color: #987D3E;
+	background: #193685;
+	color: #c0cae5;
 	cursor: pointer;
 	float: right;
   margin-top: 4px;
