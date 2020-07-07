@@ -45,10 +45,12 @@ a {
 
 #logo_top {
     font-size: 2rem;
+    background-color: rgba(46, 68, 114, .4);
 }
 
 #logo_btm {
     font-size: large;
+    background-color: rgba(46, 68, 114, .4);
 }
 
 .area {
