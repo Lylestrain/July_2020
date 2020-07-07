@@ -3,7 +3,7 @@ body{
     font-family:"Arial", Serif;
     background-color:#f4f4f4;
     overflow-x:hidden;
-    margin: 0px;
+    margin: 0px;/*-my contribution-*/
   }
   
   .navbar{
@@ -69,7 +69,7 @@ body{
   
   #main{
     transition:margin-left 0.5s;
-    padding:20px;
+    padding: 0px;
     overflow:hidden;
     width:100%;
   }
