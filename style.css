@@ -1,83 +1,57 @@
 
-body{
-    font-family:"Arial", Serif;
-    background-color:#f4f4f4;
-    overflow-x:hidden;
-    margin: 0px;/*-my contribution-*/
-  }
-  
-  .navbar{
-    background-color:#3b5998;
-    overflow:hidden;
-    height:63px;
-  }
-  
-  .navbar a{
-    float:left;
-    display:block;
-    color:#f2f2f2;
-    text-align:center;
-    padding:14px 16px;
-    text-decoration:none;
-    font-size:17px;
-  }
-  
-  .navbar ul{
-    margin:8px 0 0 0;
-    list-style:none;
-  }
-  
-  .navbar a:hover{
-    background-color:#ddd;
-    color:#000;
-  }
-  
-  .side-nav{
-    height:100%;
-    width:0;
-    position:fixed;
-    z-index:1;
-    top:0;
-    left:0;
-    background-color:#111;
-    opacity:0.9;
-    overflow-x:hidden;
-    padding-top:60px;
-    transition:0.5s;
-  }
-  
-  .side-nav a{
-    padding:10px 10px 10px 30px;
-    text-decoration:none;
-    font-size:22px;
-    color:#ccc;
-    display:block;
-    transition:0.3s;
-  }
-  
-  .side-nav a:hover{
-    color:#fff;
-  }
-  
-  .side-nav .btn-close{
-    position:absolute;
-    top:0;
-    right:22px;
-    font-size:36px;
-    margin-left:50px;
-  }
-  
-  #main{
-    transition:margin-left 0.5s;
-    padding: 0px;
-    overflow:hidden;
-    width:100%;
-  }
-  
-  @media(max-width:568px){
-    .navbar-nav{display:none}
-  }
-  
-  @media(min-width:568px){
-    /*.open-slide{display:none}*/
-  }
+
+* { padding: 0; margin: 0; }
+body { font-family: sans-serif; overflow: hidden; }
+a { text-decoration: none; color: #00A5CC; }
+li { list-style-type: none; }
+
+header { 
+	width: 100%; 
+	height: 50px; 
+	margin: auto;
+	border-bottom: 1px solid #EEE;
+}
+#brand {
+	float: left;
+	line-height: 50px;
+	color: #E5DAC0;
+	font-size: 25px;
+	font-weight: bolder;
+}
+nav { width: 100%; text-align: center; }
+nav a { 
+	display: block; 
+	padding: 15px 0;
+	border-bottom: 1px solid #C3AA6E;
+	color: #F0EADC;
+}
+nav a:hover { background: #E5DAC0; color: #FFF; }
+nav li:last-child a { border-bottom: none; }
+
+/*-----------------------------------------*/
+
+.menu {
+	width: 240px;
+	height: 100%;
+	position: absolute;
+	background: #D9C9A3;
+	left: -240px;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	
+}
+.menu-icon {
+	padding: 10px 20px;
+	background: #E5DAC0;
+	color: #987D3E;
+	cursor: pointer;
+	float: right;
+	margin-top: 4px;
+	border-radius: 5px;
+}
+#menuToggle { display: none; }
+
+#menuToggle:checked ~ .menu { position: absolute; left: 0; }
