@@ -38,7 +38,7 @@ nav li:last-child a { border-bottom: none; }
 	width: 240px;
 	height: 100%;
 	position: absolute;
-	background: #D9C9A3;
+	background: #343653;
 	left: -240px;
 	transition: all .3s ease-in-out;
 	-webkit-transition: all .3s ease-in-out;
@@ -49,7 +49,7 @@ nav li:last-child a { border-bottom: none; }
 }
 .menu-icon {
 	padding: 10px 20px;
-	background: #E5DAC0;
+	background: #c0cae5;
 	color: #987D3E;
 	cursor: pointer;
 	float: right;
