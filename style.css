@@ -1,7 +1,11 @@
 
 
 * { padding: 0; margin: 0; }
-body { font-family: sans-serif; overflow: hidden; }
+body {
+   font-family: sans-serif;
+    overflow: hidden;
+    background-color: lightslategrey;
+   }
 a { text-decoration: none; color: #00A5CC; }
 li { list-style-type: none; }
 
