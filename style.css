@@ -42,8 +42,8 @@ body {
   
   .header .logo {
 	font-size: 2em;
-	line-height: 2em;
-	padding: 10px 20px;
+	line-height: 2em;/* added to centre this better  */
+	padding: 10px 10px;
 	text-decoration: none;
   }
   
