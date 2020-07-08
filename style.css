@@ -3,11 +3,11 @@
 body {
 	margin: 0;
 	font-family: Helvetica, sans-serif;
-	background-color: #bbb;
+	background-color: rgb(106, 135, 189);
   }
   
   a {
-	color: #000;
+	color: rgb(155, 41, 117);
   }
   
   /* header */
